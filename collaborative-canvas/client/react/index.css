@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    font-family:
+        system-ui,
+        -apple-system,
+        BlinkMacSystemFont;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: #f4f6f8;
+}
+
+/* Top Toolbar */
+.toolbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 56px;
+    background: #111827;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    gap: 12px;
+    z-index: 10;
+}
+
+.toolbar h1 {
+    font-size: 16px;
+    margin-right: auto;
+}
+
+.toolbar button {
+    background: #2563eb;
+    border: none;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.toolbar button:hover {
+    background: #1d4ed8;
+}
+
+.toolbar input[type="range"] {
+    width: 80px;
+}
+
+.toolbar input[type="color"] {
+    border: none;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+
+/* Canvas */
+canvas {
+    position: absolute;
+    top: 56px;
+    left: 0;
+    background: white;
+}
