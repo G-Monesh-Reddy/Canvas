@@ -2,7 +2,8 @@ import { useEffect, useRef, useState } from "react";
 import io from "socket.io-client";
 import { drawSegment } from "../canvas.js";
 
-const socket = io("http://localhost:3000");
+const socket = io("https://canvas-1-8tgn.onrender.com");
+
 
 export default function CanvasBoard() {
     const canvasRef = useRef(null);
