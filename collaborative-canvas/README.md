@@ -92,14 +92,14 @@ Frontend: Deployed on Vercel (React + Vite)
 
 The backend is deployed first, followed by updating the frontend with the deployed backend URL.
 
- Known Limitations
+⚠️ Known Limitations
 Drawing history is stored in memory
 
 Server restart clears the canvas
 
 No authentication or user identity management
 
- Future Enhancements
+📌 Future Enhancements
 Persistent storage using Redis or a database
 
 Room-based collaborative sessions
